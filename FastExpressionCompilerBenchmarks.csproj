@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
     <PackageReference Include="FastExpressionCompiler" Version="3.2.2" />
     <PackageReference Include="FastExpressionCompiler.LightExpression" Version="3.2.2" />
