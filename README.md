@@ -7,7 +7,7 @@ I tried a few different casting mechanisms (casting the entire delegate vs casti
 
 ## Results
 
-As with regular [BenchmarkDotNet](https://benchmarkdotnet.org/) projects, run from the command line in release build - eg. 
+As with regular [BenchmarkDotNet](https://benchmarkdotnet.org/) projects, run from the command line in release build - ie. `dotnet run -c Release` from the solution root.
 
 |                                           Method |      Mean |     Error |    StdDev | Notes
 |------------------------------------------------- |----------:|----------:|----------:|------
